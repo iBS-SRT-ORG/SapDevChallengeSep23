@@ -21,7 +21,7 @@ Week 1: [Project Set-up and Database Modeling](https://groups.community.sap.com/
 - (in VS Code simply choose _**Terminal** > Run Task > cds watch_)
 - try OData examples below
 
-## ODdata Examples
+## OData Examples
 
 ### get Entity by ID
 
