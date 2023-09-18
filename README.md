@@ -1,24 +1,27 @@
 # Getting Started
 
-Welcome to your new project.
+The Schedule
+Below is a breakdown of the tasks we will cover in four weeks (click on each task to view details):
 
-It contains these folders and files, following our recommended project layout:
+Week 1: [Project Set-up and Database Modeling](https://groups.community.sap.com/t5/application-development-discussions/sap-developer-challenge-full-stack-project-set-up-and-database-modeling/td-p/284674)
 
-File or Folder | Purpose
----------|----------
-`app/` | content for UI frontends goes here
-`db/` | your domain models and data go here
-`srv/` | your service models and code go here
-`package.json` | project metadata and configuration
-`readme.md` | this getting started guide
+## Branch Status
 
+- Data Moddel - finished
+- Service implementation - finished
+- generate Testdata - finished
+
+## Dodata Examples
+
+[Entität Test mit Assotiation to many questions](http://localhost:4004/dev-challenge/Tests?$expand=questions)
+
+[Entität Questions mit Assotiation to one answer](http://localhost:4004/dev-challenge/Questions?$expand=answer)
 
 ## Next Steps
 
-- Open a new terminal and run `cds watch` 
+- Open a new terminal and run `cds watch`
 - (in VS Code simply choose _**Terminal** > Run Task > cds watch_)
 - Start adding content, for example, a [db/schema.cds](db/schema.cds).
-
 
 ## Learn More
 
