@@ -5,13 +5,17 @@ Below is a breakdown of the tasks we will cover in four weeks (click on each tas
 
 Week 1: [Project Set-up and Database Modeling](https://groups.community.sap.com/t5/application-development-discussions/sap-developer-challenge-full-stack-project-set-up-and-database-modeling/td-p/284674)
 
+## Week 1: ERM implementation
+
+![ERM implementation](https://groups.community.sap.com/t5/image/serverpage/image-id/43346i0642034B7C80E9C6/image-size/large/is-moderation-mode/true?v=v2&px=999)
+
 ## Branch Status
 
 - Data Moddel - finished
 - Service implementation - finished
 - generate Testdata - finished
 
-## Dodata Examples
+## ODdata Examples
 
 [Entität Test mit Assotiation to many questions](http://localhost:4004/dev-challenge/Tests?$expand=questions)
 
