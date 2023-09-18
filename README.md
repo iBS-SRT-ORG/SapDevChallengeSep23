@@ -15,6 +15,12 @@ Week 1: [Project Set-up and Database Modeling](https://groups.community.sap.com/
 - Service implementation - finished
 - generate Testdata - finished
 
+## Next Steps
+
+- Open a new terminal and run `cds watch`
+- (in VS Code simply choose _**Terminal** > Run Task > cds watch_)
+- try OData examples below
+
 ## ODdata Examples
 
 ### get Entity by ID
@@ -38,12 +44,6 @@ Week 1: [Project Set-up and Database Modeling](https://groups.community.sap.com/
 [Entity Questions with OData expand Assotiation "answer" to one answer - 1 JSON](http://localhost:4004/dev-challenge/Questions?$expand=answer)
 
 [Entity Questions with OData expand Assotiation "test" to one test - 1 JSON](http://localhost:4004/dev-challenge/Questions?$expand=test)
-
-## Next Steps
-
-- Open a new terminal and run `cds watch`
-- (in VS Code simply choose _**Terminal** > Run Task > cds watch_)
-- Start adding content, for example, a [db/schema.cds](db/schema.cds).
 
 ## Learn More
 
