@@ -17,9 +17,9 @@ Week 1: [Project Set-up and Database Modeling](https://groups.community.sap.com/
 
 ## ODdata Examples
 
-[Entität Test mit Assotiation to many questions](http://localhost:4004/dev-challenge/Tests?$expand=questions)
+[Entity Test with Assotiation to many questions](http://localhost:4004/dev-challenge/Tests?$expand=questions)
 
-[Entität Questions mit Assotiation to one answer](http://localhost:4004/dev-challenge/Questions?$expand=answer)
+[Entity Questions with Assotiation to one answer](http://localhost:4004/dev-challenge/Questions?$expand=answer)
 
 ## Next Steps
 
