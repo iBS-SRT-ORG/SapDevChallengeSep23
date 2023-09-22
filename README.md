@@ -3,17 +3,21 @@
 The Schedule
 Below is a breakdown of the tasks we will cover in four weeks (click on each task to view details):
 
-Week 1: [Project Set-up and Database Modeling](https://groups.community.sap.com/t5/application-development-discussions/sap-developer-challenge-full-stack-project-set-up-and-database-modeling/td-p/284674)
+Week 2: [Back-end Development – API Exposure](https://groups.community.sap.com/t5/application-development-discussions/sap-developer-challenge-full-stack-back-end-development-api-exposure-week-2/m-p/286252)
 
-## Week 1: ERM implementation
+## Week 2 - Diagram implementation
 
-![ERM implementation](https://groups.community.sap.com/t5/image/serverpage/image-id/43346i0642034B7C80E9C6/image-size/large/is-moderation-mode/true?v=v2&px=999)
+![API endpoint implementation](https://groups.community.sap.com/t5/image/serverpage/image-id/43860i92ACDF4DCB5094EB/image-size/large/is-moderation-mode/true?v=v2&px=999)
 
 ## Branch Status
 
-- Data Moddel - finished
-- Service implementation - finished
-- generate Testdata - finished
+- includes Week 1 implementations:
+  - Data Moddel - finished
+  - Service implementation - finished
+  - generate Testdata - finished
+- defined ACTION in service definition - finished
+- implemented ACTION in service implementation - finished
+- test HTTP file with POST querry implemented - finished
 
 ## Next Steps
 
@@ -21,35 +25,22 @@ Week 1: [Project Set-up and Database Modeling](https://groups.community.sap.com/
 - (in VS Code simply choose _**Terminal** > Run Task > cds watch_)
 - try OData examples below
 
-## OData Examples
+## SAP CAP
 
-### get Entity by ID
+### Provide Services
 
-[Requesting Entity "Sample Test 1" by Key](<http://localhost:4004/dev-challenge/Tests(ID=d4bb780c-5d5b-4795-b4fa-2edccc698b00,IsActiveEntity=true)>)
+[Custom Actions vs Functions( definition & implemntation & calls ](https://cap.cloud.sap/docs/guides/providing-services#custom-actions-functions)
 
-[Requesting an Individual Property of Entity "Sample Test 1"](<http://localhost:4004/dev-challenge/Tests(ID=d4bb780c-5d5b-4795-b4fa-2edccc698b00,IsActiveEntity=true)/description>)
+## SAP CAP - Node.js
 
-[Requesting Raw Value an Individual Property of Entity "Sample Test 1"](<http://localhost:4004/dev-challenge/Tests(ID=d4bb780c-5d5b-4795-b4fa-2edccc698b00,IsActiveEntity=true)/description/$value>)
+[The cds Façade Object](https://cap.cloud.sap/docs/node.js/cds-facade)
 
-[Requesting more than one Individual Property of Entity "Sample Test 1"](<http://localhost:4004/dev-challenge/Tests(ID=d4bb780c-5d5b-4795-b4fa-2edccc698b00,IsActiveEntity=true)?$select=description,title>)
+[Class cds.Service Method: srv.on(request)](https://cap.cloud.sap/docs/node.js/core-services#srv-on-request)
 
-[Get top 3 Entries from Entity Test](http://localhost:4004/dev-challenge/Tests?$top=3)
+[Class cds.Request](https://cap.cloud.sap/docs/node.js/events#cds-request)
 
-[Get top 3 Entries from Entity Test and expand their Assotiation "questions"](http://localhost:4004/dev-challenge/Tests?$expand=questions&$top=3)
-
-### using assitioations via OData expand
-
-[Entity Test with OData expand Assotiation "questions" to many questions - ARRAY](http://localhost:4004/dev-challenge/Tests?$expand=questions)
-
-[Entity Questions with OData expand Assotiation "answer" to one answer - 1 JSON](http://localhost:4004/dev-challenge/Questions?$expand=answer)
-
-[Entity Questions with OData expand Assotiation "test" to one test - 1 JSON](http://localhost:4004/dev-challenge/Questions?$expand=test)
+[Querying in JavaScript cds.ql](https://cap.cloud.sap/docs/node.js/cds-ql)
 
 ## Learn More
 
 Learn more at https://cap.cloud.sap/docs/get-started/.
-
-### OData
-
-- https://www.odata.org/
-- system query options https://www.odata.org/getting-started/basic-tutorial/#queryData
