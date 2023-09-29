@@ -1,41 +1,82 @@
 using DevChallengeService as service from '../../srv/cat-services';
 
+annotate service.Tests with @(UI.LineItem: [
+    {
+        $Type: 'UI.DataField',
+        Label: 'title',
+        Value: title
+    },
+    {
+        $Type: 'UI.DataField',
+        Label: 'description',
+        Value: description
+    },
+    {
+        $Type: 'UI.DataField',
+        Label: 'created By',
+        Value: createdBy
+    },
+    {
+        $Type: 'UI.DataField',
+        Label: 'modified By',
+        Value: modifiedBy
+    }
+]);
+
 annotate service.Tests with @(
-    UI.LineItem : [
-        {
-            $Type : 'UI.DataField',
-            Label : 'title',
-            Value : title,
+
+    UI.HeaderInfo                  : {
+        Title         : {
+            $Type: 'UI.DataField',
+            Value: 'Developer Challenge Three'
         },
-        {
-            $Type : 'UI.DataField',
-            Label : 'description',
-            Value : description,
+        Description   : {
+            $Type: 'UI.DataField',
+            Value: 'Week Three - Front-end Development with SAP Fiori elements'
         },
-    ]
-);
-annotate service.Tests with @(
-    UI.FieldGroup #GeneratedGroup1 : {
-        $Type : 'UI.FieldGroupType',
+        TypeName      : 'Test',
+        TypeNamePlural: 'Tests'
+    },
+
+    UI.FieldGroup #TestDetailsGroup: {
+        $Type: 'UI.FieldGroupType',
         Data : [
             {
-                $Type : 'UI.DataField',
-                Label : 'title',
-                Value : title,
+                $Type: 'UI.DataField',
+                Label: 'title',
+                Value: title,
             },
             {
-                $Type : 'UI.DataField',
-                Label : 'description',
-                Value : description,
+                $Type: 'UI.DataField',
+                Label: 'description',
+                Value: description,
             },
+            {
+                $Type: 'UI.DataField',
+                Label: 'created By',
+                Value: createdBy
+            },
+            {
+                $Type: 'UI.DataField',
+                Label: 'created At',
+                Value: createdAt
+            },
+            {
+                $Type: 'UI.DataField',
+                Label: 'modified By',
+                Value: modifiedBy
+            },
+            {
+                $Type: 'UI.DataField',
+                Label: 'modified At',
+                Value: modifiedAt
+            }
         ],
     },
-    UI.Facets : [
-        {
-            $Type : 'UI.ReferenceFacet',
-            ID : 'GeneratedFacet1',
-            Label : 'General Information',
-            Target : '@UI.FieldGroup#GeneratedGroup1',
-        },
-    ]
+    UI.Facets                      : [{
+        $Type : 'UI.ReferenceFacet',
+        ID    : 'TestDetailsFacet',
+        Label : 'Test Details',
+        Target: '@UI.FieldGroup#TestDetailsGroup'
+    }, ]
 );
