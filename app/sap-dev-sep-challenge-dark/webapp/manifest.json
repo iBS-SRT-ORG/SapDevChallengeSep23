@@ -135,6 +135,19 @@
                     "route": "QuestionsObjectPage"
                   }
                 }
+              },
+              "content": {
+                "header": {
+                  "actions": {
+                    "AddQuestions": {
+                      "press": "sapdevsepchallengedark.ext.addQuestions.AddQuestions.assignQuestionsToTest",
+                      "visible": true,
+                      "enabled": true,
+                      "requiresSelection": false,
+                      "text": "Add Questions"
+                    }
+                  }
+                }
               }
             }
           }
