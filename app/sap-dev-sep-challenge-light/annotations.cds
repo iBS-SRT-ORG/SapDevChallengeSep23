@@ -87,10 +87,19 @@ annotate service.Tests with @(
             }
         ],
     },
-    UI.Facets                      : [{
-        $Type : 'UI.ReferenceFacet',
-        ID    : 'TestDetailsFacet',
-        Label : 'Test Details',
-        Target: '@UI.FieldGroup#TestDetailsGroup'
-    }, ]
+    
+    UI.Facets                      : [
+        {
+            $Type : 'UI.ReferenceFacet',
+            ID    : 'TestDetailsFacet',
+            Label : 'Test Details',
+            Target: '@UI.FieldGroup#TestDetailsGroup'
+        },
+        {
+            $Type : 'UI.ReferenceFacet',
+            ID    : 'QuestionListFacet',
+            Label : 'Question List',
+            Target: 'questions/@UI.LineItem'
+        }
+    ]
 );
