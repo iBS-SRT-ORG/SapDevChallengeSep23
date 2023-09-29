@@ -23,6 +23,20 @@ annotate service.Tests with @(UI.LineItem: [
     }
 ]);
 
+annotate service.Questions with @(UI.LineItem: [
+    {
+        $Type: 'UI.DataField',
+        Label: 'Question',
+        Value: text
+    },
+    {
+        $Type: 'UI.DataField',
+        Label: 'Answer',
+        Value: answer.text
+    }
+]);
+
+
 annotate service.Tests with @(
 
     UI.HeaderInfo                  : {
