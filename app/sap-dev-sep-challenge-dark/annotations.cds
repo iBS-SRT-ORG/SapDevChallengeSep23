@@ -1,0 +1,1 @@
+using DevChallengeService as service from '../../srv/cat-services';
