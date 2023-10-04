@@ -3,7 +3,7 @@
 The Schedule
 Below is a breakdown of the tasks we will cover in four weeks (click on each task to view details):
 
-Week 2: [Front-end Development with SAP Fiori Elements](https://groups.community.sap.com/t5/application-development-discussions/sap-developer-challenge-full-stack-front-end-development-with-sap-fiori/m-p/288213)
+Week 3: [Front-end Development with SAP Fiori Elements](https://groups.community.sap.com/t5/application-development-discussions/sap-developer-challenge-full-stack-front-end-development-with-sap-fiori/m-p/288213)
 
 ## Week 3 - Diagram implementation
 
