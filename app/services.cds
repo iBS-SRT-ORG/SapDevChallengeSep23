@@ -1,6 +1,6 @@
-
 using from './sap-dev-sep-challenge-light/annotations';
 using from './sap-dev-sep-challenge-dark/annotations';
+using from './fullstack-dev-challenge/annotations';
 
 using DevChallengeService as service from '../srv/cat-services';
 
@@ -91,7 +91,7 @@ annotate service.Tests with @(
             }
         ],
     },
-    
+
     UI.Facets                      : [
         {
             $Type : 'UI.ReferenceFacet',

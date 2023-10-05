@@ -1,0 +1,11 @@
+<core:FragmentDefinition xmlns="sap.m"
+  xmlns:core="sap.ui.core" core:require="{handler: 'fullstackdevchallenge/ext/actions/addQuestion'}">
+  <Dialog id="QuestionsCountDialog" title="Add Questions" contentWidth="300px">
+    <Text id="questionsCountTitle" text="" />
+    <Input id="questionsCountInput" placeholder="Enter no. of questions to add" type="Number" />
+    <buttons>
+      <Button id="btnClose" text="Close" type="Reject" press="handler.onCloseDialog"/>
+      <Button id="btnSubmit" text="Submit" type="Accept" press="handler.onSubmitDialog"/>
+    </buttons>
+  </Dialog>
+</core:FragmentDefinition>

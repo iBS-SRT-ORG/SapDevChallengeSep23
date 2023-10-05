@@ -9,5 +9,4 @@ service DevChallengeService @(path: '/dev-challenge') {
     @odata.draft.enabled: true
     entity Questions as projection on fullstack_dev_challenge.Questions;
 
-
 }

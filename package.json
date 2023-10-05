@@ -1,5 +1,5 @@
 {
-  "name": "SAPdevC",
+  "name": "sapdevc",
   "version": "1.0.0",
   "description": "A simple CAP project.",
   "repository": "<Add your repository here>",
@@ -16,10 +16,13 @@
   "scripts": {
     "start": "cds-serve",
     "watch-sap-dev-sep-challenge-light": "cds watch --open sap-dev-sep-challenge-light/webapp/index.html?sap-ui-xx-viewCache=false",
-    "watch-sap-dev-sep-challenge-dark": "cds watch --open sap-dev-sep-challenge-dark/webapp/index.html?sap-ui-xx-viewCache=false"
+    "watch-sap-dev-sep-challenge-dark": "cds watch --open sap-dev-sep-challenge-dark/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-fullstack-dev-challenge": "cds watch --open fullstack-dev-challenge/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "sapux": [
     "app/sap-dev-sep-challenge-light",
-    "app/sap-dev-sep-challenge-dark"
+    "app/sap-dev-sep-challenge-dark",
+    "app/fullstack-dev-challenge"
+    
   ]
 }
