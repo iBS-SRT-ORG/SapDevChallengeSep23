@@ -1,5 +1,5 @@
 {
-  "name": "SAPdevC",
+  "name": "sapdevc",
   "version": "1.0.0",
   "description": "A simple CAP project.",
   "repository": "<Add your repository here>",
@@ -10,9 +10,14 @@
     "express": "^4"
   },
   "devDependencies": {
-    "@cap-js/sqlite": "^1"
+    "@cap-js/sqlite": "^1",
+    "@sap/ux-specification": "^1.108.14"
   },
   "scripts": {
-    "start": "cds-serve"
-  }
+    "start": "cds-serve",
+    "watch-fullstack-dev-challenge": "cds watch --open fullstack-dev-challenge/webapp/index.html?sap-ui-xx-viewCache=false"
+  },
+  "sapux": [
+    "app/fullstack-dev-challenge"
+  ]
 }
