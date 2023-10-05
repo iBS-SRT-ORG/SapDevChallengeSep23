@@ -1,5 +1,3 @@
-using from './sap-dev-sep-challenge-light/annotations';
-using from './sap-dev-sep-challenge-dark/annotations';
 using from './fullstack-dev-challenge/annotations';
 
 using DevChallengeService as service from '../srv/cat-services';
@@ -50,7 +48,7 @@ annotate service.Tests with @(
         },
         Description   : {
             $Type: 'UI.DataField',
-            Value: 'Week Three - Front-end Development with SAP Fiori elements'
+            Value: 'Week Four - Integration of backend and frontend'
         },
         TypeName      : 'Test',
         TypeNamePlural: 'Tests'
