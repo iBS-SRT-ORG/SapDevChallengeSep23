@@ -2,8 +2,7 @@
 
 [SAP Developer Challenge – Full-Stack (SAP CAP + SAP Fiori elements)](https://blogs.sap.com/2023/09/06/sap-developer-challenge-full-stack-sap-cap-sap-fiori-elements/) september 2023 Implementation.
 
-The Schedule
-Below is a breakdown of the tasks we will cover in four weeks (click on each task to view details, change Branches to view implemntation snapshots)
+Below is a breakdown of the tasks covered in four weeks (click on each task to view details, change Branches to view implemntation snapshots)
 
 ## Branches
 
@@ -19,15 +18,10 @@ Below is a breakdown of the tasks we will cover in four weeks (click on each tas
 ### week04
 [Integration of backend and frontend](https://groups.community.sap.com/t5/application-development-discussions/sap-developer-challenge-full-stack-integration-of-backend-and-frontend-week/m-p/290179)
 
-
-
-
-
 ## Next Steps
 
 - Open a new terminal and run `cds watch`
 - (in VS Code simply choose _**Terminal** > Run Task > cds watch_)
-- try OData examples below
 
 ## Learn More
 
